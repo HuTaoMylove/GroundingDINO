@@ -33,3 +33,6 @@ RUN cd GroundingDINO/ && python -m pip install .
 COPY docker_test.py docker_test.py
 
 CMD [ "python", "docker_test.py" ]
+
+
+test1
