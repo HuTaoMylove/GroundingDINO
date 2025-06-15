@@ -31,3 +31,4 @@ ENV PATH=/usr/local/cuda/bin:$PATH
 RUN cd GroundingDINO/ && python -m pip install .
 
 CMD [ "python", "docker_test.py" ]
+
